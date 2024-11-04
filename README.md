@@ -1,4 +1,4 @@
-# Monte-Carlo-simulation-for-nuclear-decay-of-Cesium-137
+# Monte-Carlo-simulation-for-nuclear-decay-of-Caesium-137
 This code was used to approach an activity of undergrad physics lab, relted to the decay og Cs137 as gamma rays, intending to simulate whether  it would occur compton effect or photoelectric effect with certain probability and taking into consideration de losses due to the measuring apparatus.
 First theres the MC simulation, then there's a gaussian fit done to a peak of the histogram measured in the lab. This was done in order to take into consideration the losses of the measurement, so that I could compare with the simulation.
 Finally after converting the voltages from the parameters of that fit to keV by a previously done calibration (that is not covered in this code) a convolution is done between the MC histogram and a gaussian with its parameters given by the previous fit bit with its mean being dependent on each bin.
